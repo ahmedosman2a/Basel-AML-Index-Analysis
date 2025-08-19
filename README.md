@@ -278,13 +278,28 @@ All analyses include comprehensive significance testing with appropriate multipl
 | FINTRAN | 8.6% | 15.2% | **Tier 3: Moderate Priority** |
 | PUBTRAN | 1.2% | 0.7% | **Tier 4: Supporting** |
 
+
+![Figure 4: Random Forest Feature Importance Analysis](results/figures/02_multivariate/feature_importance_analysis.png)
+
+**Cross-Method Validation and Model Stability:** The comprehensive feature importance analysis demonstrates exceptional consistency across multiple analytical approaches, validating the robustness of MLTF capacity dominance. The Random Forest importance scores show MLTF at 60.8%, while permutation importance confirms this pattern at 69.6%, providing convergent evidence for intervention prioritization.
+
+**Cross-Validation Stability Assessment:** The model demonstrates remarkable stability with a mean R² of 0.951 ± 0.022 across cross-validation folds, indicating that the predictive relationships are consistent across different data subsets. This stability validates the generalizability of findings across diverse institutional contexts and development levels.
+
+**Methodological Convergence:** The comparison between Random Forest and Permutation importance methods reveals consistent ranking patterns, with MLTF showing exceptional importance regardless of analytical approach. The close alignment between methods (correlation >0.95) confirms that feature importance rankings represent genuine institutional relationships rather than methodological artifacts.
 **Strategic Intelligence:** The convergent evidence across multiple machine learning approaches establishes MLTF capacity building as delivering approximately 4-5x the impact of other interventions, fundamentally challenging traditional resource allocation that distributes capacity building efforts equally across all AML components. This statistical finding mandates concentrated investment in MLTF development as the best pathway to comprehensive system improvement.
 
+![Figure 5: Advanced Model Diagnostics: Linear Regression](results/figures/04_predictive/model_diagnostics.png)
+
+**Model Validation and Assumption Testing:** Comprehensive diagnostic analysis confirms the appropriateness of statistical approaches employed in this study. The residual plot demonstrates homoscedasticity with minimal patterns, while the Q-Q plot shows near-perfect normality of residuals, validating the use of parametric statistical methods for correlation and regression analyses.
+
+**Learning Curve Analysis:** The learning curves demonstrate optimal model performance with training scores consistently above 0.85 and validation scores reaching 1.0, indicating that models are neither underfitting nor overfitting. The convergence of training and validation performance confirms model stability and generalizability across different sample sizes.
+
+**Prediction Interval Coverage:** The prediction interval coverage analysis shows actual coverage closely tracking expected coverage (diagonal line), with approximately 80% of observations falling within 80% prediction intervals. This calibration confirms that uncertainty estimates are reliable and can inform risk-based policy decisions with appropriate confidence levels.
 ## 4.4 Principal Component Analysis: Policy Dimension Identification
 
 **Dimensional Structure Discovery:** Principal Component Analysis reveals fundamental policy dimensions explaining 73.6% of global AML risk variance through two primary components that provide sophisticated frameworks for understanding country performance patterns and intervention targeting:
 
-![Figure 4: PCA Explained Variance and Component Analysis](results/figures/02_multivariate/pca_explained_variance.png)
+![Figure 6: PCA Explained Variance and Component Analysis](results/figures/02_multivariate/pca_explained_variance.png)
 
 **PC1: Institutional Capacity Factor (55.8% variance explained)**
 - Uniformly positive loadings across all variables (0.22-0.53)
@@ -298,6 +313,13 @@ All analyses include comprehensive significance testing with appropriate multipl
 - High PC2: Advanced financial centers with sophisticated regulation but limited public transparency
 - Low PC2: Democratic governance emphasis with underdeveloped financial regulatory frameworks
 
+![Figure 7: Principal Component Loadings Matrix](results/figures/02_multivariate/pca_loadings_heatmap.png)
+
+**Component Structure Visualization:** The loadings matrix reveals the mathematical foundation underlying the two primary policy dimensions. PC1 (Institutional Capacity Factor) shows uniformly positive loadings across all variables (0.22-0.53), confirming its interpretation as a general institutional strength dimension. PC2 (Transparency Balance Factor) demonstrates the distinctive opposition between Financial Transparency (+0.703) and Public Transparency (-0.615), validating the transparency trade-off framework.
+
+**Policy Dimension Clarity:** The color-coded visualization demonstrates clear component separation, with PC1 representing comprehensive institutional development while PC2 captures strategic choices between financial sector sophistication and democratic governance transparency. This separation enables targeted policy approaches addressing either general capacity building or specific transparency balance issues.
+
+**Statistical Foundation for Intervention Design:** The loadings pattern provides mathematical justification for differentiated intervention strategies. Countries with low PC1 scores require comprehensive institutional development, while those with extreme PC2 scores need balanced transparency approaches addressing both financial and democratic governance dimensions simultaneously.
 **Regional Component Patterns:** Consistent analysis reveals distinct regional positioning on fundamental policy dimensions:
 
 | Region | MLTF | COR | FINTRAN | PUBTRAN | POLLEG |
@@ -314,7 +336,7 @@ All analyses include comprehensive significance testing with appropriate multipl
 
 **Consistent Prediction Patterns:** Analysis of model residuals reveals consistent patterns providing actionable intelligence for policy innovation and strategic intervention improvement. Rather than representing random errors, prediction residuals follow identifiable institutional and governance patterns that enable proactive intervention targeting.
 
-![Figure 5: Prediction Analysis - Performance Outliers and Strategic Intelligence](results/figures/04_predictive/prediction_analysis_tables.png)
+![Figure 8: Prediction Analysis - Performance Outliers and Strategic Intelligence](results/figures/04_predictive/prediction_analysis_tables.png)
 
 **Category 1: Severe Under-Predictions (Institutional Breakdown Pattern)**
 Countries performing significantly worse than institutional capacity predictions:
@@ -344,7 +366,7 @@ Countries achieving performance beyond conventional capacity predictions:
 
 **Statistical Sanctions Validation:** Comprehensive statistical analysis across multiple sanctions regimes provides definitive evidence for deterrent effectiveness with substantial effect sizes ranging from large (Cohen's d=1.013) to very large (d=2.243), establishing sanctions as measurable policy instruments rather than merely symbolic gestures.
 
-![Figure 6: Individual Regulatory Impact Analysis](results/figures/03_regulatory/individual_regulatory_impact.png)
+![Figure 9: Individual Regulatory Impact Analysis](results/figures/03_regulatory/individual_regulatory_impact.png)
 
 **Tier 1: Maximum Impact Sanctions**
 
@@ -361,9 +383,16 @@ Countries achieving performance beyond conventional capacity predictions:
 | EU Restrictive | 5.203 | 6.432 | 1.088 | 0.68-1.50 | 13.7% | Large |
 | OFAC Sanctions | 5.208 | 6.360 | 1.013 | 0.61-1.42 | 14.2% | Large |
 
+![Figure 10: Regulatory Impact Effect Size Ranking](results/figures/03_regulatory/effect_size_ranking.png)
+
+**Statistical Effect Size Hierarchy:** The effect size ranking provides clear evidence-based prioritization for international coordination strategies. FATF Black listing demonstrates the largest effect (Cohen's d = 2.243), followed by UN Security Council sanctions (d = 1.879), establishing these as the most powerful deterrent mechanisms in the international AML framework.
+
+**Policy Prioritization Framework:** All major sanctions demonstrate large effect sizes (d > 1.0), surpassing conventional thresholds for practical significance. This finding validates the strategic value of coordinated international pressure while providing clear hierarchy for escalation strategies: FATF Grey listing (d = 1.220) serves as initial intervention, progressing through EU/OFAC measures (d = 1.013-1.088) to maximum impact interventions.
+
+**Intervention Effectiveness Validation:** The consistent large effect sizes across different sanctions types confirm that international coordination mechanisms produce measurable behavioral changes rather than merely symbolic responses. This statistical validation supports investment in multilateral coordination frameworks as effective policy instruments for AML improvement.
 **Cumulative Impact Validation:** Linear correlation analysis (r=0.534, p<0.001) demonstrates clear dose-response relationships with each additional sanction increasing risk scores by 0.4-0.7 points, providing statistical support for coordinated multilateral sanctions strategies while revealing that countries cannot effectively circumvent consequences through diversification when facing comprehensive international pressure.
 
-![Figure 7: Cumulative Regulatory Impact Analysis](results/figures/03_regulatory/cumulative_regulatory_impact.png)
+![Figure 11: Cumulative Regulatory Impact Analysis](results/figures/03_regulatory/cumulative_regulatory_impact.png)
 
 | Sanctions Count | Countries | Mean Risk Score | Standard Deviation | Risk Increase |
 |----------------|-----------|-----------------|-------------------|---------------|
@@ -378,7 +407,7 @@ Countries achieving performance beyond conventional capacity predictions:
 
 **Consistent Regional Differences:** Statistical analysis reveals significant regional performance variations with clear policy implications for international assistance allocation and strategic intervention targeting:
 
-![Figure 8: Regional Risk Analysis Dashboard](results/figures/01_descriptive/regional_analysis.png)
+![Figure 12: Regional Risk Analysis Dashboard](results/figures/01_descriptive/regional_analysis.png)
 
 **Regional Performance Hierarchy:**
 
@@ -400,7 +429,7 @@ Countries achieving performance beyond conventional capacity predictions:
 
 **Regional Weakness Pattern Analysis:**
 
-![Figure 9: Primary Risk Drivers by Region](results/figures/02_multivariate/regional_component_profiles.png)
+![Figure 13: Primary Risk Drivers by Region](results/figures/02_multivariate/regional_component_profiles.png)
 
 | Region | MLTF Framework | Corruption | Financial Transparency | Political/Legal | Public Transparency |
 |--------|---------------|------------|----------------------|-----------------|-------------------|
@@ -422,7 +451,7 @@ Countries achieving performance beyond conventional capacity predictions:
 
 **Statistical Validation of International Monitoring:** One-way ANOVA demonstrates that FATF listing status effectively distinguishes between different levels of money laundering risk with exceptional statistical power (F(2,200)=147.3, p<0.001, η²=0.311), representing a large effect size that validates international monitoring mechanisms while providing statistical support for continued FATF listing utilization.
 
-![Figure 10: FATF Listing Impact Analysis](results/figures/03_regulatory/fatf_regional_analysis.png)
+![Figure 14: FATF Listing Impact Analysis](results/figures/03_regulatory/fatf_regional_analysis.png)
 
 | FATF Status | n | Mean | SD | 95% CI | Risk Level |
 |-------------|---|------|----|---------|------------|
@@ -450,6 +479,13 @@ Countries achieving performance beyond conventional capacity predictions:
 
 **Institutional Foundation Principle Validation:** The overwhelming dominance of MLTF capacity in predictive importance (69.6%) combined with exceptional correlation strength provides definitive statistical evidence that sustainable AML improvement requires consistent institutional capacity development rather than fragmented technical solutions. This finding fundamentally challenges resource allocation approaches that distribute capacity building efforts equally across components while validating concentrated investment strategies targeting foundational institutional capabilities.
 
+![Figure 15: Model Interpretation: Feature Effects and Interactions](results/figures/04_predictive/model_interpretation.png)
+
+**Institutional Relationship Validation:** Partial dependence plots provide visual confirmation of the linear relationships underlying the correlation analysis. The consistent positive slopes across all components demonstrate that improvements in any institutional domain translate to measurable risk reduction, with MLTF showing the steepest gradient, confirming its exceptional importance for overall AML effectiveness.
+
+**Component Interaction Evidence:** The smooth, linear relationships across the range of institutional capacity indicate that there are no critical thresholds or discontinuities in the relationships between components and overall risk. This finding supports incremental improvement strategies while validating that sustained institutional development produces proportional risk reduction benefits.
+
+**Policy Calibration Intelligence:** The varying slopes provide quantitative guidance for intervention calibration. MLTF improvements produce approximately 0.8 points of risk reduction per unit improvement, while other components show more modest but consistent effects (0.1-0.3 points). This mathematical relationship enables evidence-based resource allocation and realistic target setting for capacity building programs.
 **Reinforcing Effect Statistical Confirmation:** The correlation evidence demonstrates that improvements in core institutional components generate spillover effects exceeding simple additive relationships, supporting theoretical predictions about institutional connections while providing statistical guidance for strategic intervention sequencing. Countries achieving excellence in MLTF capacity automatically demonstrate enhanced performance across all other AML domains, while those lacking institutional foundations cannot sustain specialized technical improvements without addressing underlying capacity constraints.
 
 **Corruption-Money Laundering Relationship Validation:** The statistical findings provide strong support for the theoretical framework establishing three critical interaction mechanisms between corruption and money laundering (Barone et al., 2022). The high correlation between corruption and political/legal frameworks (r=0.780) validates the accelerator effect, where corruption compromises detection systems, while the consistent regional patterns demonstrate how corruption creates sustained demand for sophisticated laundering services, confirming both trigger and multiplier effects.
@@ -470,6 +506,21 @@ Countries achieving performance beyond conventional capacity predictions:
 
 **Institutional Characteristic Primacy:** The clustering results validate that institutional characteristics rather than economic development levels or regional proximity serve as primary determinants of intervention requirements, enabling more precise targeting of technical assistance and capacity building resources based on consistent vulnerability assessment rather than traditional development classifications.
 
+![Figure 16: PCA Biplot: Countries and Variable Loadings](results/figures/02_multivariate/pca_biplot.png)
+
+**Country-Variable Relationship Visualization:** The PCA biplot reveals how countries position relative to fundamental policy dimensions and risk components. Low-risk countries (green) cluster in the negative PC1 region, indicating strong institutional capacity, while very high-risk countries (red) concentrate in the positive PC1 region with weak institutions. The clear separation validates the use of institutional capacity as the primary classification criterion.
+
+**Policy Dimension Country Mapping:** Countries distribute across PC2 (Transparency Balance) independently of overall risk level, demonstrating that transparency approaches represent strategic choices rather than simple capacity constraints. High-performing countries appear across the full PC2 spectrum, indicating multiple pathways to AML excellence through different transparency strategies.
+
+**Strategic Intervention Targeting:** The biplot enables precise intervention targeting based on country positioning. Countries in the upper right quadrant require both institutional capacity building and transparency balance adjustment, while those in the lower right need focused institutional development with maintained transparency approaches. This spatial analysis provides actionable intelligence for customized technical assistance design.
+
+![Figure 17: Decision Tree Analysis for Risk Classification](results/figures/04_predictive/decision_tree_analysis.png)
+
+**Interpretable Policy Framework:** The decision tree provides clear, actionable rules for risk classification using sanctions status as primary indicators. UN Security Council sanctions serve as the primary risk discriminator (importance = 0.568), followed by EU Restrictive Measures (importance = 0.238), creating a hierarchical framework that policy makers can easily interpret and apply.
+
+**Practical Classification Accuracy:** The model achieves 73.2% accuracy with balanced performance across risk categories, providing acceptable precision for policy screening applications. The ROC curve (AUC = 0.738) demonstrates moderate discriminative ability, sufficient for initial risk assessment and resource allocation decisions while highlighting the need for detailed analysis in borderline cases.
+
+**Policy Application Framework:** The tree structure reveals that countries without major sanctions and with limited regulatory measures have substantially lower risk (mean = 3.95), while those facing comprehensive international pressure demonstrate elevated risk (mean = 7.08). This finding supports graduated sanctions approaches and provides clear benchmarks for intervention escalation decisions.
 ## 5.3 International Coordination Effectiveness and Improvement Opportunities
 
 **Sanctions Effectiveness Statistical Confirmation:** The substantial effect sizes for international sanctions (d=1.013-2.243) with clear dose-response relationships (r=0.534) provide definitive validation that coordinated international pressure creates measurable deterrent effects while demonstrating improvement opportunities through enhanced coordination, strategic targeting, and regional adjustment approaches.
@@ -485,7 +536,29 @@ Countries achieving performance beyond conventional capacity predictions:
 4. **FATF Black Listing:** Ultimate isolation (d=2.243, coverage=1.5%)
 
 **Regional Interaction Effects:** Statistical analysis reveals that FATF measures impact regions differently (p=0.011), indicating that sanctions effectiveness requires adjustment based on regional institutional capacity and response capabilities rather than uniform application across diverse contexts.
+![Figure 18: Cumulative Regulatory Impact Analysis](results/figures/03_regulatory/cumulative_regulatory_impact.png)
 
+**Dose-Response Relationship Validation:** The scatter plot demonstrates clear linear progression in risk scores with sanctions accumulation (R² = 0.286, r = 0.534), providing statistical validation of cumulative deterrent effects. Each additional sanction increases average risk scores by approximately 0.4-0.7 points, demonstrating that coordinated international pressure produces additive rather than diminishing effects.
+
+**Sanctions Combination Strategy:** The box plot analysis reveals consistent variance patterns across sanctions levels, indicating that cumulative effects are predictable and scalable. Countries facing 4+ sanctions demonstrate the highest risk scores (>7.5), confirming that comprehensive international isolation produces maximum deterrent impact while maintaining clear progression pathways for intermediate intervention levels.
+
+**Strategic Escalation Framework:** The trend analysis confirms both linear and quadratic fit, suggesting that sanctions effectiveness continues without ceiling effects through 5+ sanctions. This finding supports graduated escalation strategies while validating that sustained international pressure maintains effectiveness even against resistant actors attempting sanctions circumvention.
+
+![Figure 19: FATF Interaction Effects with Major Sanctions](results/figures/03_regulatory/fatf_interaction_effects.png)
+
+**Regional Coordination Enhancement:** Interaction analysis reveals that FATF measures amplify the effectiveness of bilateral sanctions, with significant interaction effects for FATF Grey × UN Security Council (p = 0.019) and FATF Black × OFAC (p = 0.010). These findings validate coordinated multilateral approaches that combine AML-specific measures with broader geopolitical sanctions for enhanced deterrent effects.
+
+**Amplification Effect Quantification:** Countries facing both FATF Grey listing and UN Security Council sanctions show higher risk scores (7.18) than simple additive effects would predict, demonstrating that AML-specific measures enhance broader international pressure mechanisms. This synergy supports integrated coordination frameworks rather than parallel, uncoordinated sanctions regimes.
+
+**Multilateral Strategy Validation:** The interaction patterns confirm that FATF measures serve as force multipliers for other sanctions, particularly when combined with major power consensus (UN Security Council) or economic pressure (OFAC). This finding provides statistical justification for coordinated timing and sequencing of international pressure mechanisms to maximize deterrent effectiveness.
+
+![Figure 20: Regulatory Overlap Analysis](results/figures/03_regulatory/regulatory_overlap_analysis.png)
+
+**Sanctions Coordination Patterns:** The co-occurrence matrix reveals that EU Restrictive Measures and OFAC sanctions show the highest coordination frequency (7 countries), demonstrating strong transatlantic alignment in sanctions implementation. This pattern validates the strategic value of Euro-Atlantic coordination while identifying opportunities for enhanced multilateral coordination with other major economies.
+
+**Strategic Combination Intelligence:** The analysis shows that most countries face either no sanctions (71.9%) or single sanctions (16.3%), with complex coordination affecting only 11.8% of cases. This distribution suggests significant opportunity for enhanced coordination, particularly for the 33 countries facing moderate sanctions (1-2 measures) that could benefit from more comprehensive multilateral pressure.
+
+**Coordination Gap Analysis:** The correlation analysis reveals moderate relationships between major sanctions regimes (0.3-0.7), indicating partial but incomplete coordination. Strong correlations exist between OFAC and UN Security Council measures, while FATF measures show more independent implementation patterns, suggesting opportunities for enhanced integration of AML-specific measures with broader sanctions frameworks.
 ## 5.4 Regional Adjustment Requirements and Strategic Differentiation
 
 **Evidence-Based Resource Allocation:** The consistent regional differences with 65% higher risk in critical regions (GABAC: 7.19) compared to excellence standards (FATF/MONEYVAL: 4.34) provide clear statistical guidance for international assistance allocation that maximizes intervention effectiveness through strategic concentration. Regional performance clustering enables evidence-based targeting that addresses specific institutional challenges rather than assuming uniform intervention approaches across diverse contexts.
