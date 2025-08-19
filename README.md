@@ -19,7 +19,7 @@ These findings provide statistically-robust foundations for improving internatio
 1. [Introduction](#1-introduction)
 2. [Literature Review and Theoretical Foundations](#2-literature-review-and-theoretical-foundations)
 3. [Methodology and Analytical Framework](#3-methodology-and-analytical-framework)
-4. [Results and Empirical Findings](#4-results-and-empirical-findings)
+4. [Results and Statistical Findings](#4-results-and-statistical-findings)
 5. [Discussion and Policy Implications](#5-discussion-and-policy-implications)
 6. [Strategic Policy Framework](#6-strategic-policy-framework)
 7. [Implementation Framework and Success Metrics](#7-implementation-framework-and-success-metrics)
