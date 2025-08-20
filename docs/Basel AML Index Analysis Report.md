@@ -1259,6 +1259,8 @@ Financial Action Task Force. (2017). *Anti-money laundering and terrorist financ
 
 Gaspareniene, L., Gagyte, G., Remeikiene, R., & Matuliene, S. (2022). Clustering of the European Union member states based on money laundering measuring indices. *Economics and Sociology*, *15*(2), 153-171. https://doi.org/10.14254/2071-789X.2022/15-2/10
 
+Medina, L., & Schneider, F. (2018). Shadow economies around the world: What did we learn over the last 20 years? (IMF Working Paper No. 18/17). International Monetary Fund.
+
 Manning, M., Wong, G. T., & Jevtovic, N. (2021). Investigating the relationships between FATF recommendation compliance, regulatory affiliations and the Basel Anti-Money Laundering Index. *Security Journal*, *34*(1), 566-588. https://doi.org/10.1057/s41284-020-00249-z
 
 Markovska, A., & Nya, A. (2015). Political corruption and money laundering: Lessons from Nigeria. *Journal of Money Laundering Control*, *18*(2), 169-181. https://doi.org/10.1108/JMLC-10-2014-0040
