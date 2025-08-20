@@ -22,9 +22,8 @@ These findings provide statistically-robust foundations for improving internatio
 4. [Results and Statistical Findings](#4-results-and-statistical-findings)
 5. [Discussion and Policy Implications](#5-discussion-and-policy-implications)
 6. [Strategic Policy Framework](#6-strategic-policy-framework)
-7. [Implementation Framework and Success Metrics](#7-implementation-framework-and-success-metrics)
-8. [Conclusions](#8-conclusions)
-9. [References](#references)
+7. [Implementation  and Future direction](#7-implementation-and-future-directions)
+8. [References](#references)
 
 # 1. Introduction
 
