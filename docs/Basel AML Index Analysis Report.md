@@ -1270,6 +1270,7 @@ Omar, N., & Johari, Z. A. (2015). An international analysis of FATF recommendati
 Otudor, L. E., & Bagheri, M. (2023). Legitimacy of power exercised by FATF under international law. *Journal of Financial Crime*, *31*(6), 1289-1301. https://doi.org/10.1108/JFC-09-2023-0239
 
 Soria, J. J., Loayza Abal, R., & Segura Peña, L. (2024). Machine Learning Models for Money Laundering Detection in Financial Institutions: A Systematic Literature Review. In 22nd LACCEI International Multi-Conference for Engineering, Education, and Technology: Sustainable Engineering for a Diverse, Equitable, and Inclusive Future at the Service of Education, Research, and Industry for a Society 5.0 (pp. 1-10). LACCEI. https://doi.org/10.18687/LACCEI2024.1.1.1682 
+
 Šikman, M., & Grujić, M. (2021). Relationship of anti-money laundering index with GDP, financial market development, and human development index. *NBP. Nauka, bezbednost, policija*, *26*(1), 21-33. https://doi.org/10.5937/nabepo26-29725
 
 Vagaská, A., Gombár, M., & Korauš, A. (2022). Mathematical modeling and nonlinear optimization in determining the minimum risk of legalization of income from criminal activities in the context of EU member countries. *Mathematics*, *10*(24), Article 4681. https://doi.org/10.3390/math10244681
